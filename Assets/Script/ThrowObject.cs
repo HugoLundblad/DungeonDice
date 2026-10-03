@@ -60,7 +60,7 @@ public class ThrowObject : MonoBehaviour,IMoveWithPointer
             transform.position = cam.ScreenToWorldPoint(v3);
             Vector3 MovingDir =  (OldPosition - transform.position).normalized;
             Debug.Log(MovingDir);
-            transform.rotation = Quaternion.LookRotation(MovingDir).ToEuler();
+            //transform.rotation = Quaternion.LookRotation(MovingDir).ToEuler();
             //transform.rotation = transform.rotation * ((Quaternion.LookRotation(MovingDir * Time.deltaTime)));
         }
     }

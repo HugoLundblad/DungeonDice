@@ -3548,7 +3548,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 66b58c96eadcb634a8fbfaa8b8a909e9, type: 2}
     - target: {fileID: -6689036041284674117, guid: 82a3f1ec373f9f044ade9cad9ce83f30, type: 3}
       propertyPath: m_Name
-      value: yugioh__relinquished
+      value: Relinquished
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 82a3f1ec373f9f044ade9cad9ce83f30, type: 3}
       propertyPath: m_LocalScale.x
