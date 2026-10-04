@@ -8,7 +8,7 @@ public class Relinquished : MonoBehaviour
 
     void Update()
     {
-        healthBar.value = HP
+        healthBar.value = HP;
     }
 
     public void TakeDamage(int damageAmount)

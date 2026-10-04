@@ -157,6 +157,7 @@ GameObject:
   - component: {fileID: 4246524366743191761}
   - component: {fileID: 5999134524267876835}
   - component: {fileID: 7574693612750053391}
+  - component: {fileID: 8436663715161122152}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -248,6 +249,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &8436663715161122152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116385125482217732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c821bf896d7f2a3449dc354fa500b82e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
 --- !u!1 &267043682883946891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4464,6 +4477,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 82a3f1ec373f9f044ade9cad9ce83f30, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7477692671665027537}
+    - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 82a3f1ec373f9f044ade9cad9ce83f30, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 121938168497554116}
     - targetCorrespondingSourceObject: {fileID: 8651043135022899283, guid: 82a3f1ec373f9f044ade9cad9ce83f30, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5567605152382633227}
@@ -4543,6 +4559,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &121938168497554116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3965733562633232577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b301f19c773de6a48a84a5b5752d9bb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Relinquished
+  HP: 100
+  healthBar: {fileID: 2244768443923236596}
 --- !u!1 &7794734133878922537 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8651043135022899283, guid: 82a3f1ec373f9f044ade9cad9ce83f30, type: 3}
